@@ -153,7 +153,23 @@ a{color:#555;font-weight:bold;font-size: 19px;text-decoration:none;}
 .container i:hover{color:#16c79a; transform: scale(1.3);}
 .col img{height: 200px;margin: 0;padding: 0;}
 .span{margin-right: 130px;margin-bottom: 10px;}
- 
+ .isam p{margin: auto; animation: isam 5.2s infinite;}
+ @keyframes isam{
+ 0%,100%{
+  
+   color: #FFAEC0;
+  }
+  50%{
+   color:#ffdcdc;
+  }
+  70%{
+   color: #8ac4d0;
+  
+  }
+  90%{
+   color:  #1687A7;
+  }
+ }
 
 
 
